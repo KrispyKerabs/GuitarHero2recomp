@@ -1,0 +1,22 @@
+[main]
+file_path = "/home/awwab/Documents/Important port/Guitar Hero II (RF) (415607E7)/default.xex"
+out_directory_path = "ppc_gh2"
+switch_table_file_path = "gh2_switches.toml"
+
+# REAL save/restore addresses for GH2
+restgprlr_14_address = 0x826A02B0
+savegprlr_14_address = 0x826A0260
+restfpr_14_address = 0x826A0D2C
+savefpr_14_address = 0x826A0CE0
+restvmx_14_address = 0x826A18F8
+savevmx_14_address = 0x826A1660
+restvmx_64_address = 0x826A198C
+savevmx_64_address = 0x826A16F4
+
+# Keep all optimizations OFF for first run
+skip_lr = false
+ctr_as_local = false
+xer_as_local = false
+cr_as_local = false
+non_argument_as_local = false
+non_volatile_as_local = false
